@@ -2,7 +2,7 @@
  *  This file is part of Check Hash software program
  *	name of file: chdialog.h
  *
- *	Copyright (C) 2014 Filipe Marques <eagle.software3@gmail.com>
+ *	Copyright (C) 2014 2015 Filipe Marques <eagle.software3@gmail.com>
  *
  *	This program is free software; you can redistribute it and/or modify
  *	it under the terms of the GNU General Public License as published by

@@ -2,7 +2,7 @@
 
 #### Check Hash is a GUI wrapper of [GNU Coreutils sha1sum](http://www.gnu.org/software/coreutils/manual/coreutils.html#sha1sum-invocation)
 
-#### Build in C++ Qt5. :smile:
+#### Build in C++11 Qt5. :smile:
 
 #### Copyright (C) 2014 2015 - Filipe Marques
 
