@@ -2,7 +2,7 @@
 #       This file is part of Check Hash software program
 #	name of file: checkhash.pro
 #
-#	Copyright (C) 2014 Filipe Marques <eagle.software3@gmail.com>
+#	Copyright (C) 2014 2015 Filipe Marques <eagle.software3@gmail.com>
 #
 #	This program is free software; you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -27,16 +27,37 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Check_Hash
 TEMPLATE = app
 CONFIG += c++11
+CONFIG += release
 
-SOURCES += main.cpp\
-        chdialog.cpp \
-    chcreditsdialog.cpp
+VERSION = 1.0.2
+
+SOURCES +=  main.cpp\
+            chdialog.cpp \
+            chcreditsdialog.cpp
 
 HEADERS  += chdialog.h \
-    chcreditsdialog.h
+            chcreditsdialog.h
 
 FORMS    += chdialog.ui \
-    chcreditsdialog.ui
+            chcreditsdialog.ui
 
-RESOURCES += \
-    chresource.qrc
+RESOURCES += chresource.qrc
+
+# Installation on Linux
+unix {
+    target.path = /usr/bin/checkhash
+
+    desk.path = /usr/share/applications/checkhash.desktop
+    desk.files = checkhash.desktop
+
+    icon24.path = /usr/share/icons/checkhash.png
+    icon24.files = icons/ch24.png
+
+    icon24_2.path = /usr/share/icons/hicolor/24x24/apps/checkhash.png
+    icon24_2.files = icons/ch24.png
+
+    icon128.path = /usr/share/icons/hicolor/128x128/apps/checkhash.png
+    icon128.files = icons/ch128.png
+
+    INSTALLS += target desk icon24 icon24_2 icon128
+}
