@@ -21,7 +21,7 @@
  *
 */
 
-#include "chdialog.h"
+#include "inc/chdialog.h"
 #include "ui_chdialog.h"
 
 // constructor

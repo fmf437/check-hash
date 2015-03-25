@@ -21,7 +21,7 @@
  *
 */
 
-#include "chdialog.h"
+#include "inc/chdialog.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

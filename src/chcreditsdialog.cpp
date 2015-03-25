@@ -21,7 +21,7 @@
  *
 */
 
-#include "chcreditsdialog.h"
+#include "inc/chcreditsdialog.h"
 #include "ui_chcreditsdialog.h"
 
 // constructor
@@ -37,8 +37,8 @@ CHCreditsDialog::CHCreditsDialog(QWidget *parent) : QDialog(parent), ui(new Ui::
 
     ui->label_5->setPixmap(QPixmap(":/icons/ch128.png"));
 
-    ui->label->setText("Check Hash version 1.0.0");
-    ui->label_2->setText("Copyright (C) 2014 - Filipe Marques");
+    ui->label->setText("Check Hash version 1.0.2");
+    ui->label_2->setText("Copyright (C) 2014 2015 - Filipe Marques");
 
     ui->label_4->setOpenExternalLinks(true);
     ui->label_4->setTextFormat(Qt::RichText);
