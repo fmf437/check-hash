@@ -20,9 +20,7 @@
 #	MA 02110-1301, USA.
 #
 
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT       += core gui widgets
 
 TARGET = Check_Hash
 TEMPLATE = app
@@ -31,17 +29,17 @@ CONFIG += release
 
 VERSION = 1.0.2
 
-SOURCES +=  main.cpp\
-            chdialog.cpp \
-            chcreditsdialog.cpp
+SOURCES +=  src/main.cpp\
+            src/chdialog.cpp \
+            src/chcreditsdialog.cpp
 
-HEADERS  += chdialog.h \
-            chcreditsdialog.h
+HEADERS  += inc/chdialog.h \
+            inc/chcreditsdialog.h
 
-FORMS    += chdialog.ui \
-            chcreditsdialog.ui
+FORMS    += ui/chdialog.ui \
+            ui/chcreditsdialog.ui
 
-RESOURCES += chresource.qrc
+RESOURCES += resource/chresource.qrc
 
 # Installation on Linux
 unix {
@@ -51,13 +49,13 @@ unix {
     desk.files = checkhash.desktop
 
     icon24.path = /usr/share/icons/checkhash.png
-    icon24.files = icons/ch24.png
+    icon24.files = resource/icons/ch24.png
 
     icon24_2.path = /usr/share/icons/hicolor/24x24/apps/checkhash.png
-    icon24_2.files = icons/ch24.png
+    icon24_2.files = resource/icons/ch24.png
 
     icon128.path = /usr/share/icons/hicolor/128x128/apps/checkhash.png
-    icon128.files = icons/ch128.png
+    icon128.files = resource/icons/ch128.png
 
     INSTALLS += target desk icon24 icon24_2 icon128
 }
