@@ -8,25 +8,26 @@
 
 #### Project licensed under [GNU GPL v.3](http://www.gnu.org/copyleft/gpl.html) and even [the website of the project Check Hash](https://filipe-marques.github.io/check-hash) is under same license!
 
-### CONTRIBUTING TO CHECK HASH PROJECT
+### Contributing to Check Hash project
 
 Here are the rules to promote a good relationship between developers and the community:
 
-#### ISSUES
+#### Issues
 
 1. Be polite and kind
 2. Describe what happens and how to test to reproduce that error
 
-#### PULL REQUESTS
+#### Pull Requests
 
 1. To fix a issue: one pull request per issue
 2. To implement an idea: one pull request per idea
 
+#### Development
+
+1. Always develop new features, fix bugs in dev branch, after finish develop, merge dev into master branch of your forked repo.
+2. Do pull requests to target the dev branch
+
 This avoids confusion between revisions of source code!
-
-#### Code Convention
-
-The code convention used in this project is CamelCase, except in signal / slot member functions - this may change over time.
 
 #### Software need for coding or testing
 
