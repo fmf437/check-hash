@@ -57,5 +57,8 @@ unix {
     icon128.path = /usr/share/icons/hicolor/128x128/apps/checkhash.png
     icon128.files = resource/icons/ch128.png
 
-    INSTALLS += target desk icon24 icon24_2 icon128
+    license.path = /usr/share/licenses/checkhash/LICENSE
+    license.files = LICENSE
+
+    INSTALLS += target desk icon24 icon24_2 icon128 license
 }
