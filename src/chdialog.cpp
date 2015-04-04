@@ -81,7 +81,7 @@ void CHDialog::on_pushButton_clicked()
     // the path need to change
     // currently the program only checks,
     // if the iso file, the txt file and program executable are in same folder
-    QString txtfile = QFileDialog::getOpenFileName(this, tr("Open txt file"),"/$HOME/$PATH","*.txt");
+    QString txtfile = QFileDialog::getOpenFileName(this, tr("Open txt file"),"/home/","*.txt");
     if (!txtfile.isEmpty())
     {
         ui->lineEdit->setText(txtfile);

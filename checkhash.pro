@@ -27,7 +27,7 @@ TEMPLATE = app
 CONFIG += c++11
 CONFIG += release
 
-VERSION = 1.0.2
+VERSION = 1.0.3
 
 SOURCES +=  src/main.cpp\
             src/chdialog.cpp \
