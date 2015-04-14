@@ -8,6 +8,21 @@
 
 #### Project licensed under [GNU GPL v.3](http://www.gnu.org/copyleft/gpl.html) and even [the website of the project Check Hash](https://filipe-marques.github.io/check-hash) is under same license!
 
+If you use [Manjaro Linux](http://www.manjaro.org/) operating system, you can install checkhash:
+
+```
+sudo pacman -S checkhash
+```
+
+or in octopi or pamac search for: checkhash
+
+On the other hand, if you use [Archlinux](https://www.archlinux.org/) or [other Archlinux based operating system](https://wiki.archlinux.org/index.php/Arch_based_distributions_%28active%29#Arch-influenced_distributions) you can install checkhash
+using the [Arch User Repository](https://aur.archlinux.org) and yaourt:
+
+```
+sudo yaourt -S checkhash
+```
+
 ### Contributing to Check Hash project
 
 Here are the rules to promote a good relationship between developers and the community:
