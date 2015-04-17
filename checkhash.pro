@@ -22,7 +22,7 @@
 
 QT       += core gui widgets
 
-TARGET = Check_Hash
+TARGET = checkhash
 TEMPLATE = app
 CONFIG += c++11
 CONFIG += release
@@ -45,16 +45,16 @@ RESOURCES += resource/chresource.qrc
 unix {
     target.path = /usr/bin/checkhash
 
-    desk.path = /usr/share/applications/checkhash.desktop
+    desk.path = /usr/share/applications/checkhash
     desk.files = checkhash.desktop
 
-    icon24.path = /usr/share/icons/checkhash.png
+    icon24.path = /usr/share/icons/checkhash
     icon24.files = resource/icons/ch24.png
 
-    icon24_2.path = /usr/share/icons/hicolor/24x24/apps/checkhash.png
+    icon24_2.path = /usr/share/icons/hicolor/24x24/apps/checkhash
     icon24_2.files = resource/icons/ch24.png
 
-    icon128.path = /usr/share/icons/hicolor/128x128/apps/checkhash.png
+    icon128.path = /usr/share/icons/hicolor/128x128/apps/checkhash
     icon128.files = resource/icons/ch128.png
 
     license.path = /usr/share/licenses/checkhash/LICENSE
