@@ -22,7 +22,7 @@
 
 QT       += core gui widgets
 
-TARGET = checkhash
+TARGET = Check_Hash
 TEMPLATE = app
 CONFIG += c++11
 CONFIG += release
