@@ -20,7 +20,7 @@ On the other hand, if you use [Archlinux](https://www.archlinux.org/) or [other 
 using the [Arch User Repository](https://aur.archlinux.org) and yaourt:
 
 ```
-sudo yaourt -S checkhash
+yaourt -S checkhash
 ```
 
 ### Contributing to Check Hash project
