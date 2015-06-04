@@ -16,7 +16,7 @@ sudo pacman -S checkhash
 
 or in octopi or pamac search for: checkhash
 
-On the other hand, if you use [Archlinux](https://www.archlinux.org/) or [other Archlinux based operating system](https://wiki.archlinux.org/index.php/Arch_based_distributions_%28active%29#Arch-influenced_distributions) you can install checkhash
+On the other hand, if you use [Archlinux](https://www.archlinux.org/) you can install checkhash
 using the [Arch User Repository](https://aur.archlinux.org) and yaourt:
 
 ```
